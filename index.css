@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.base{
+    background-color: rgb(26, 190, 182);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 120px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    user-select: none;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 100px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px ;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(42, 224, 248);
+    border-radius: 2px;
+}
+.base .center{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: rgb(255, 220, 94);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
+}
+.form-box{
+    width: 500px;
+    right: 90%;
+   background: rgba(56, 41, 41, 0.8);
+    margin: 6% auto;
+    padding: 50px 0;
+    color: #797979;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+
+    
+}
+.input-box{
+ 
+    margin: 31px auto;
+    width: 80%;
+    right: 50%;
+    border-bottom: 1px solid #7e7878;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #70eede;
+}
+::placeholder{
+    color: #0a0a0a;
+}
+
+button{
+    margin: 20px;
+    margin-left: 40%;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(90deg, royalblue, lightgreen);
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+span{
+    display: block;
+    margin-left: 20px;
+    color: rgb(62, 225, 203);
+    font-style: italic;
+}
